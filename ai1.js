@@ -1,11 +1,6 @@
-var x = 0;
-var y = 0;
+import { AI1 } from './AIFormat.js'
+import { AI2 } from './AIFormat.js'
 
-export function tick() {
-  y += 1;
-  movement();
-}
-function movement() {
-  ai1.style.top = y + "px";
-  ai1.style.left = x + "px";
+//Explain inputs
+export function expin() {
 }
