@@ -4,10 +4,10 @@ class AI {
     this.y = y;
   }
 }
-export let AI1 = new AI(0, 0);
+export let AI1 = new AI(20, 20);
 export let AI2 = new AI(100, 100);
+
 export function tick() {
-  AI1.x++;
   movement();
 }
 function movement() {
